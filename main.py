@@ -47,3 +47,6 @@ df_WH = pd.DataFrame(data = WH)
 # Plotting:
 #df_output.plot(x ='Time', y='Power', kind = 'line')
 #plt.show()
+
+df_WH.plot(x ='# timestamp', y=' temperature', kind = 'line')
+plt.show()
